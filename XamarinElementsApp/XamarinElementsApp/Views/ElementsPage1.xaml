@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             x:Class="XamarinElementsApp.Views.Elementspage1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Estacio" TextColor="DarkBlue" BackgroundColor="Gray" BorderWidth="5" CornerRadius="10" Clicked="Button_Clicked"></Button>
+            <Label Text="Welcome Estacio Group" TextColor="Blue" FontSize="Medium" HorizontalTextAlignment="Center" ></Label>
+            <Entry d:Placeholder="Name" Placeholder="White" TextColor="Blue" Keyboard="Text" HeightRequest="200"></Entry>
+            <Editor Placeholder="About" FontFamily="Arial" FontSize="20" FontAttributes="Italic"></Editor>
+            <SearchBar Placeholder="search" MaxLength="1" TextChanged="SearchBar_TextChanged"></SearchBar>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
